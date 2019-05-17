@@ -4,7 +4,7 @@
   "description": "Mixins project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass --include-path scss scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/darrenwhatford/mixins/issues"
   },
-  "homepage": "https://github.com/darrenwhatford/mixins#readme"
+  "homepage": "https://github.com/darrenwhatford/mixins#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }

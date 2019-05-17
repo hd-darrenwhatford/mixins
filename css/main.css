@@ -1,0 +1,8 @@
+.transform-rotate-30 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg); }
+
+.row-flex {
+  display: -webkit-flex;
+  display: flex; }
